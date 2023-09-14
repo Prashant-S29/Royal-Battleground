@@ -1,12 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0px;
 }
 
-
-.main-backdrop{
-  background: url('../assets/backdrop/mainbackdrop.png');
+.main-backdrop {
+  background: url("../assets/backdrop/mainbackdrop.png");
 }
+
+.battelground-gradient {
+  background: -webkit-linear-gradient(90deg, rgba(255,252,0,1) 0%, rgba(255,141,0,1) 69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.royal-gradient {
+  background: -webkit-linear-gradient(60deg, #CF0000 0%, #000000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

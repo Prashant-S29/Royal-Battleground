@@ -1,0 +1,73 @@
+.palnet-animation-1 {
+  animation: spin1 10s linear infinite;
+}
+
+.palnet-animation-2 {
+  animation: spin2 10s linear infinite;
+}
+
+@keyframes spin1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.plane-glow-animation {
+  animation: glow 1s alternate infinite;
+}
+
+@keyframes glow {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+
+.stone-animation1 {
+  animation: float1 12s linear infinite;
+  animation-delay: 3s;
+}
+
+@keyframes float1 {
+  0% {
+    rotate: 0;
+    left: 50px;
+  }
+  100% {
+    top: 500%;
+    left: 500px;
+    rotate: 360deg;
+  }
+}
+
+.stone-animation2 {
+  animation: float2 10s linear infinite;
+  animation-delay: 3s;
+}
+
+@keyframes float2 {
+  0% {
+    rotate: 0;
+    bottom: -150px;
+    left: 50px;
+  }
+  100% {
+    bottom: 120%;
+    left: 200%;
+    rotate: 360deg;
+  }
+}
