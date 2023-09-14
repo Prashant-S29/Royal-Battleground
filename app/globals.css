@@ -13,16 +13,23 @@
 }
 
 .battelground-gradient {
-  background: -webkit-linear-gradient(90deg, rgba(255,252,0,1) 0%, rgba(255,141,0,1) 69%);
+  background: -webkit-linear-gradient(
+    90deg,
+    #fffc00 0%,
+    #ff8d00 69%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .royal-gradient {
-  background: -webkit-linear-gradient(60deg, #CF0000 0%, #000000 100%);
+  background: -webkit-linear-gradient(60deg, #cf0000 0%, #000000 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.button1-bg {
+  background: url("../assets/buttons/button1.png");
+}

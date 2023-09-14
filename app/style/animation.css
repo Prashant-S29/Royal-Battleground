@@ -71,3 +71,43 @@
     rotate: 360deg;
   }
 }
+
+@media screen and (max-width: 2560px) {
+  .plane2-aniamtion {
+    animation: fly1 10s linear infinite;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .plane2-aniamtion {
+    animation: fly2 8s linear infinite;
+  }
+}
+
+@keyframes fly1 {
+  0% {
+    top: 100px;
+    left: 100%;
+    scale: 0.2;
+  }
+  100% {
+    rotate: 35deg;
+    top: 300px;
+    left: -50%;
+    scale: 1.1;
+  }
+}
+
+@keyframes fly2 {
+  0% {
+    top: 100px;
+    left: 100%;
+    scale: 0.2;
+  }
+  100% {
+    rotate: 35deg;
+    top: 300px;
+    left: -50%;
+    scale: 1.1;
+  }
+}
