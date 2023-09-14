@@ -97,7 +97,7 @@ const Home = () => {
               <Link href="/tournaments">
                 <div className="relative">
                   <button className="px-[14px] py-[8px] text-[16px] text-black border-2 uppercase font-semibold bg-[#ffffff54] hover:bg-transparent duration-300 ">
-                    Regiter
+                    Register
                   </button>
                 </div>
               </Link>
