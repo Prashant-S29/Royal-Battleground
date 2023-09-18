@@ -207,7 +207,7 @@ const Home = () => {
               </div>
               <div className="z-50 absolute">
                 <span className="text-white uppercase font-black text-[28px] md:text-[36px] tracking-widest leading-none">
-                  MINCRAFT
+                  MINECRAFT
                 </span>
               </div>
             </div>
