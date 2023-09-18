@@ -1,19 +1,13 @@
 import React from "react";
+import Image from "next/image";
+
+import backdrop2 from "../../assets/backdrop/backdrop2.png";
 
 const Tournament = () => {
   return (
     <>
-      <div className="w-full h-screen flex justify-center items-center text-center">
-        <div>
-          <div>
-            <span className="uppercase text-[20px] font-black">
-              Tournament Page
-            </span>
-          </div>
-          <div>
-            <span className="uppercase">coming soon</span>
-          </div>
-        </div>
+      <div className="w-full h-screen flex justify-center items-center">
+        <span>HELLO WORLD</span>
       </div>
     </>
   );

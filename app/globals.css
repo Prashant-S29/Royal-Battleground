@@ -4,20 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+::selection{
+  background-color: transparent;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
 
-.main-backdrop {
-  background: url("../assets/backdrop/mainbackdrop.png");
-}
-
 .battelground-gradient {
-  background: -webkit-linear-gradient(
-    90deg,
-    #fffc00 0%,
-    #ff8d00 69%
-  );
+  background: -webkit-linear-gradient(90deg, #fffc00 0%, #ff8d00 69%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -30,6 +30,10 @@
   -webkit-text-fill-color: transparent;
 }
 
-.button1-bg {
-  background: url("../assets/buttons/button1.png");
+.backdrop2 {
+  background: url("../assets/backdrop/backdrop2.png");
+}
+
+.bgmi-tournament {
+  background-image: url("../assets/tournament-assets/bgmi.png");
 }
