@@ -164,7 +164,7 @@ const Home = () => {
         </div>
       </div>
       <div className="absolute w-full h-[200px] bg-gradient-to-t from-[#000000] to-[#00000000] -mt-[200px] " />
-      <div className="w-full min-h-screen bg-black pb-[50px]">
+      <div className="w-full bg-black pb-[50px]">
         <div id="tournaments" className="text-center pt-[50px]">
           <span
             className="uppercase leading-none battelground-gradient text-[36px] md:text-[72px]"
@@ -174,7 +174,7 @@ const Home = () => {
           </span>
         </div>
         <div className="flex flex-wrap justify-center mt-[30px] gap-[30px] md:gap-[50px] mx-[20px]">
-          <Link href="/">
+          <Link href="/tournaments/bgmi" className="rounded-full">
             <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
               <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
                 <Image
@@ -193,7 +193,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <Link href="/tournaments/minecraft" className="rounded-full">
             <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
               <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
                 <Image
@@ -212,7 +212,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <Link href="/tournaments/valorant" className="rounded-full">
             <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
               <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
                 <Image
@@ -231,7 +231,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <Link href="/tournaments/freefire" className="rounded-full">
             <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
               <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
                 <Image
