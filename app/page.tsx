@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+// import "react-double-marquee";
+
 import "../app/style/animation.css";
 import "../app/style/glitch-texteffect.css";
 
@@ -252,6 +254,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      
     </>
   );
 };
