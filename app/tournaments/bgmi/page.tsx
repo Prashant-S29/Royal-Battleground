@@ -124,7 +124,7 @@ const BGMI = () => {
                           <span className="font-semibold">Fee</span>:
                         </span>
                       </div> */}
-                      {/* <div className="mt-[10px] flex flex-wrap gap-2">
+                      <div className="mt-[10px] flex flex-wrap gap-2">
                         {t_details.status === "upcoming" ? (
                           ""
                         ) : (
@@ -148,14 +148,14 @@ const BGMI = () => {
                           </div>
                         )}
                         <div>
-                          <button
+                          <span
                             className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
                           font-semibold tracking-wider rounded-[5px]"
                           >
-                            Know More
-                          </button>
+                            Coming Soon
+                          </span>
                         </div>
-                      </div> */}
+                      </div>
                     </div>
                   </div>
                 </div>
