@@ -109,7 +109,7 @@ const BGMI = () => {
                           {t_details.t_name}
                         </span>
                       </div>
-                      <div>
+                      {/* <div>
                         <span className="text-[14px]">
                           <span className="font-semibold">Date</span>:
                         </span>
@@ -123,11 +123,8 @@ const BGMI = () => {
                         <span className="text-[14px]">
                           <span className="font-semibold">Fee</span>:
                         </span>
-                      </div>
-                      {/* <div>
-                          <span>COMING SOON</span>
-                        </div> */}
-                      <div className="mt-[10px] flex flex-wrap gap-2">
+                      </div> */}
+                      {/* <div className="mt-[10px] flex flex-wrap gap-2">
                         {t_details.status === "upcoming" ? (
                           ""
                         ) : (
@@ -158,7 +155,7 @@ const BGMI = () => {
                             Know More
                           </button>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
