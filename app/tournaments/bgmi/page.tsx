@@ -1,18 +1,31 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+import axios from "axios";
 
 import bgmi_bg from "../../../assets/tournament-assets/bgmi-bg.png";
 
 import bgmi1 from "../../../assets/tournament-assets/bgmi1.png";
 import bgmi2 from "../../../assets/tournament-assets/bgmi2.png";
 
+import { checkout } from "../../../checkout";
+
 const tournament_data = [
   {
+    t_name: "Erangle",
     t_img: bgmi1,
-    t_name: "Erangle - Unranked",
     t_link: "/",
+    status: "upcoming",
   },
+  // {
+  //   t_name: "LIVIK",
+  //   t_img: bgmi1,
+  //   t_link: "/",
+  //   live: false,
+  // },
 ];
 
 const BGMI = () => {
@@ -63,33 +76,94 @@ const BGMI = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-[30px] flex flex-wrap justify-left gap-[20px] md:gap-[40px] lg:gap-[20px] xl:gap-[50px]">
+            <div className="mt-[30px] flex flex-wrap justify-left gap-[20px] md:gap-[30px] lg:gap-[15px] xl:gap-[40px]">
               {tournament_data.map((t_details, index) => (
                 <div
                   key={index}
-                  className="w-full md:w-[300px] h-[280px]   bg-[#000000] rounded-[20px] overflow-hidden hover:scale-105  shadow-[#ffffff] duration-200"
+                  className="w-full md:w-[250px]   bg-[#000000] rounded-[15px] "
                 >
-                  <Link href={t_details.t_link}>
-                    <div className="w-full h-[180px]">
-                      <Image
-                        src={t_details.t_img}
-                        alt="bgmi1"
-                        className="w-full h-full object-cover rounded-t-[20px]  -z-10"
-                      />
-                    </div>
-                    <div className="w-full h-[100px] rounded-b-[20px] bg-[#ffd036]  text-center flex justify-center items-center ">
-                      <div>
-                        <div>
-                          <span className="text-[#000000] text-[20px] uppercase font-bold">
-                            {t_details.t_name}
-                          </span>
+                  <div className="w-full h-[180px] overflow-hidden rounded-t-[15px]">
+                    {t_details.status == "live" ? (
+                      <div className="z-50 absolute mt-[5px] ml-[5px]">
+                        <div className="text-red-500 font-bold text-[14px] uppercase tracking-wide">
+                          <span>LIVE</span>
                         </div>
-                        <div>
+                      </div>
+                    ) : (
+                      <div className="z-50 absolute">
+                        <div className="bg-[#ffffff] px-[12px] py-[4px] rounded-full text-[12px] font-bold tracking-wide">
+                          <span>UPCOMING</span>
+                        </div>
+                      </div>
+                    )}
+                    <Image
+                      src={t_details.t_img}
+                      alt="bgmi1"
+                      className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-105 duration-200"
+                    />
+                  </div>
+                  <div className="w-full rounded-b-[15px] bg-[#ffd036]">
+                    <div className="p-[15px]">
+                      <div>
+                        <span className="text-[#000000] text-[20px] uppercase font-extrabold">
+                          {t_details.t_name}
+                        </span>
+                      </div>
+                      <div>
+                        <span className="text-[14px]">
+                          <span className="font-semibold">Date</span>: 30
+                          <sup>th </sup>September, 2023
+                        </span>
+                      </div>
+                      <div>
+                        <span className="text-[14px]">
+                          <span className="font-semibold">Time</span>: 03:00 PM
+                          - 04:00 PM
+                        </span>
+                      </div>
+                      <div>
+                        <span className="text-[14px]">
+                          <span className="font-semibold">Fee</span>:{" "}
+                          <b>₹60/-</b> per team
+                        </span>
+                      </div>
+                      {/* <div>
                           <span>COMING SOON</span>
+                        </div> */}
+                      <div className="mt-[10px] flex flex-wrap gap-2">
+                        {t_details.status === "upcoming" ? (
+                          ""
+                        ) : (
+                          <div>
+                            <button
+                              onClick={() => {
+                                checkout({
+                                  lineItems: [
+                                    {
+                                      price: "price_1Nts99SExA2opeWLY01ntdsj",
+                                      quantity: 1,
+                                    },
+                                  ],
+                                });
+                              }}
+                              className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
+                        font-semibold tracking-wider rounded-[5px]"
+                            >
+                              Register
+                            </button>
+                          </div>
+                        )}
+                        <div>
+                          <button
+                            className="bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
+                          font-semibold tracking-wider rounded-[5px]"
+                          >
+                            Know More
+                          </button>
                         </div>
                       </div>
                     </div>
-                  </Link>
+                  </div>
                 </div>
               ))}
             </div>

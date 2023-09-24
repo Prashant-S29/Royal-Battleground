@@ -1,6 +1,9 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 
 // import "react-double-marquee";
 
@@ -42,6 +45,7 @@ const socials = [
 ];
 
 const Home = () => {
+
   return (
     <>
       <div className="w-full h-screen overflow-hidden ">
@@ -254,7 +258,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      
     </>
   );
 };
