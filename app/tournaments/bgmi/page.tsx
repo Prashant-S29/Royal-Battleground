@@ -111,20 +111,17 @@ const BGMI = () => {
                       </div>
                       <div>
                         <span className="text-[14px]">
-                          <span className="font-semibold">Date</span>: 30
-                          <sup>th </sup>September, 2023
+                          <span className="font-semibold">Date</span>:
                         </span>
                       </div>
                       <div>
                         <span className="text-[14px]">
-                          <span className="font-semibold">Time</span>: 03:00 PM
-                          - 04:00 PM
+                          <span className="font-semibold">Time</span>:
                         </span>
                       </div>
                       <div>
                         <span className="text-[14px]">
-                          <span className="font-semibold">Fee</span>:{" "}
-                          <b>₹60/-</b> per team
+                          <span className="font-semibold">Fee</span>:
                         </span>
                       </div>
                       {/* <div>
@@ -155,7 +152,7 @@ const BGMI = () => {
                         )}
                         <div>
                           <button
-                            className="bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
+                            className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
                           font-semibold tracking-wider rounded-[5px]"
                           >
                             Know More
