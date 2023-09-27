@@ -24,25 +24,7 @@ import whatsapp from "../assets/socials/whatsapp.png";
 import bgmi from "../assets/tournament-assets/bgmi.png";
 import minecraft from "../assets/tournament-assets/minecraft.png";
 import freefire from "../assets/tournament-assets/freefire.png";
-import valorant from "../assets/tournament-assets/valorant.png";
-
-const socials = [
-  {
-    social_name: "discord",
-    social_icon: discord,
-    socail_link: "https://discord.gg/Kexc3yHj",
-  },
-  // {
-  //   social_name: "instagram",
-  //   social_icon: instagram,
-  //   socail_link: "/",
-  // },
-  {
-    social_name: "whatsapp",
-    social_icon: whatsapp,
-    socail_link: "https://chat.whatsapp.com/DMTeZz8Hq0i0Q4CVJvRh8B",
-  },
-];
+import valorant from "../assets/tournament-assets/valorant.png";;
 
 const Home = () => {
 
@@ -139,7 +121,7 @@ const Home = () => {
                 <ul className="flex justify-center items-cnter gap-[10px] md:gap-[20px]">
                   <li>
                     <div className="overflow-hidden p-2 md:p-3">
-                      <Link href="/">
+                      <Link href="https://discord.gg/Kexc3yHj">
                         <Image
                           src={discord}
                           alt="discord"
@@ -150,7 +132,7 @@ const Home = () => {
                   </li>
                   <li>
                     <div className="overflow-hidden p-2 md:p-3 -mt-[2px]">
-                      <Link href="/">
+                      <Link href="https://chat.whatsapp.com/DMTeZz8Hq0i0Q4CVJvRh8B">
                         <Image
                           src={whatsapp}
                           alt="whatsapp"
