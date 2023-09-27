@@ -30,7 +30,7 @@ const socials = [
   {
     social_name: "discord",
     social_icon: discord,
-    socail_link: "/",
+    socail_link: "https://discord.gg/Kexc3yHj",
   },
   // {
   //   social_name: "instagram",
@@ -40,7 +40,7 @@ const socials = [
   {
     social_name: "whatsapp",
     social_icon: whatsapp,
-    socail_link: "/",
+    socail_link: "https://chat.whatsapp.com/DMTeZz8Hq0i0Q4CVJvRh8B",
   },
 ];
 
