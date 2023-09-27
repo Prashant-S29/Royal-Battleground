@@ -1,6 +1,5 @@
 "use client";
 
-import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,25 +10,9 @@ import bgmi2 from "../../../assets/tournament-assets/bgmi2.png";
 
 import { checkout } from "../../../checkout";
 
-const tournament_data = [
-  {
-    t_name: "Erangle - Classic",
-    t_img: bgmi1,
-    t_link: "/",
-    status: "upcoming",
-    t_fee: "₹60/-",
-    t_category: "team",
-    t_date: "08th October, 2023",
-    t_time: "03:00 PM - 04:00 PM",
-  }
-];
+import { Erangle } from "../../../tournament-constants/index";
 
 const BGMI = () => {
-  // const [popUp, showPopUp] = useState(false);
-
-  // function handleClick() {
-  //   showPopUp(!popUp);
-  // }
 
   return (
     <>
@@ -46,7 +29,7 @@ const BGMI = () => {
           <div className="w-full h-fit -mt-[10px] bg-[#000000] px-[20px] md:px-[40px] xl:px-[80px] pb-[20px] md:pb-[40px] lg:pb-[80px]">
             <div>
               <span className="font-black text-[#ffd036] text-[34px] md:text-[48px] xl:text-[72px] uppercase">
-                Battelground&nbsp; Mobile&nbsp; India
+                Battleground&nbsp; Mobile&nbsp; India
               </span>
             </div>
             <div className="flex items-center text-[12px] md:text-[14px] overflow-x-scroll ">
@@ -73,20 +56,13 @@ const BGMI = () => {
               <div className="flex items-center gap-2">
                 <div>
                   <span className="text-white uppercase font-semibold">
-                    1&nbsp; Upcoming&nbsp; Tournament
+                    2&nbsp; Upcoming&nbsp; Tournament
                   </span>
                 </div>
               </div>
             </div>
             <div className="mt-[30px] flex flex-wrap justify-left gap-[20px] md:gap-[30px] lg:gap-[15px] xl:gap-[40px]">
-              {/* {popUp && popUp === true ? (
-                <div className="w-full h-screen backdrop-blur-5 blur-5 bg-pink-300 absolute top-0 left-0 flex justify-center items-center">
-                  <div className="w-[250px] h-[250px] aspect-square bg-slate-400"></div>
-                </div>
-              ) : (
-                ""
-              )} */}
-              {tournament_data.map((t_details, index) => (
+              {Erangle.map((t_details, index) => (
                 <div
                   key={index}
                   className="w-full md:w-[300px]   bg-[#000000] rounded-[15px] "
@@ -162,13 +138,14 @@ const BGMI = () => {
                           </div>
                         )}
                         <div>
-                          <span
-                            // onClick={handleClick}
-                            className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
+                          {/* <Link href={`bgmi/${t_details.t_id}`}> */}
+                            <span
+                              className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
                           font-semibold tracking-wider rounded-[5px]"
-                          >
-                            More details will be shared soon
-                          </span>
+                            >
+                              More info will be shared soon!
+                            </span>
+                          {/* </Link> */}
                         </div>
                       </div>
                     </div>
