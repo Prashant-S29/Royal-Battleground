@@ -13,28 +13,15 @@ const Erangle = [
         t_date: "18th October, 2023",
         t_time: "06:00 PM - 07:00 PM",
         t_rule: [
-            "All team members must register on our official discord and whatsapp groups.",
-            "All team members must have the same kdcnksanca.",
-            "All team members must have the same kdcnksanca.",
-            "All team members must have the same kdcnksanca.",
+            "It is a 2-4 player team tournamenent.",
+            "No Emulators palyers are allowed.",
+            "Any use of unfair means such as aimbot, trigger bot, ESP will be disqualified",
+            "Organizers would not be held responsible for connectivity issues on the participant's side.",
+            " The entry fee would not be refunded under any circumstances.",
+            "Participants are requested to remain ready at least 15 minutes prior to the start of any match. Late entries would not be allowed"
         ]
-    },
-    {
-        t_name: "TDM - 1v1",
-        t_img: bgmi1,
-        t_id: "tdm",
-        status: "upcoming",
-        t_fee: "₹50/-",
-        t_category: "player",
-        t_date: "23th October, 2023",
-        t_time: "06:00 PM - 07:00 PM",
-        t_rule: [
-            "All team members must register on our official discord and whatsapp groups.",
-            "All team members must have the same kdcnksanca.",
-            "All team members must have the same kdcnksanca.",
-            "All team members must have the same kdcnksanca.",
-        ]
-    },
+    }
+    
 ]
 
 export { Erangle }

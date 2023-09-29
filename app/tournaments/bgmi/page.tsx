@@ -138,14 +138,14 @@ const BGMI = () => {
                           </div>
                         )}
                         <div>
-                          {/* <Link href={`bgmi/${t_details.t_id}`}> */}
-                            <span
+                          <Link href={`rules-info/#${t_details.t_id}`}>
+                            <button
                               className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
                           font-semibold tracking-wider rounded-[5px]"
                             >
-                              More info will be shared soon!
-                            </span>
-                          {/* </Link> */}
+                              Know More
+                            </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
