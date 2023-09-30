@@ -13,7 +13,6 @@ import { checkout } from "../../../checkout";
 import { Erangle } from "../../../tournament-constants/index";
 
 const BGMI = () => {
-
   return (
     <>
       <div className="w-full min-h-screen flex justify-center items-end">
@@ -56,7 +55,7 @@ const BGMI = () => {
               <div className="flex items-center gap-2">
                 <div>
                   <span className="text-white uppercase font-semibold">
-                    2&nbsp; Upcoming&nbsp; Tournament
+                    1&nbsp; Upcoming&nbsp; Tournament
                   </span>
                 </div>
               </div>
@@ -87,7 +86,7 @@ const BGMI = () => {
                       className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-105 duration-200"
                     />
                   </div>
-                  <div className="w-full h-auto md:h-[170px] rounded-b-[15px] bg-[#ffd036]">
+                  <div className="w-full h-auto md:h-[225px] rounded-b-[15px] bg-[#ffd036]">
                     <div className="p-[15px]">
                       <div>
                         <span className="text-[#000000] text-[20px] uppercase font-extrabold">
@@ -110,7 +109,19 @@ const BGMI = () => {
                         <div>
                           <span className="text-[14px]">
                             <span className="font-semibold">Time</span>:{" "}
-                            {t_details.t_time} (IST)
+                            {t_details.t_time} {"(IST)"}
+                          </span>
+                        </div>
+                        <div>
+                          <span className="text-[14px]">
+                            <span className="font-semibold">Team Size</span>:{" "}
+                            {t_details.t_size}
+                          </span>
+                        </div>
+                        <div>
+                          <span className="text-[14px]">
+                            <span className="font-semibold">Prize Pool</span>:{" "}
+                            {t_details.t_prize}
                           </span>
                         </div>
                       </div>
@@ -119,7 +130,7 @@ const BGMI = () => {
                           ""
                         ) : (
                           <div>
-                            <button
+                            {/* <button
                               onClick={() => {
                                 checkout({
                                   lineItems: [
@@ -134,7 +145,15 @@ const BGMI = () => {
                         font-semibold tracking-wider rounded-[5px]"
                             >
                               Register
-                            </button>
+                            </button> */}
+                            <Link href="../submissionForms/erangleForm">
+                              <button
+                                className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
+                        font-semibold tracking-wider rounded-[5px]"
+                              >
+                                Register
+                              </button>
+                            </Link>
                           </div>
                         )}
                         <div>

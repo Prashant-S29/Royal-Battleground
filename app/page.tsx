@@ -4,7 +4,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-
 // import "react-double-marquee";
 
 import "../app/style/animation.css";
@@ -17,17 +16,17 @@ import planet1 from "../assets/frontside-assets/planet1.png";
 import stone1 from "../assets/frontside-assets/stone1.png";
 
 import discord from "../assets/socials/discord.png";
-// import instagram from "../assets/socials/instagram.png";
+import instagram from "../assets/socials/instagram.png";
 import whatsapp from "../assets/socials/whatsapp.png";
 // import twitch from "../assets/socials/twitch.png";
+import help_icon from "../assets/socials/help_icon.png";
 
 import bgmi from "../assets/tournament-assets/bgmi.png";
 import minecraft from "../assets/tournament-assets/minecraft.png";
 import freefire from "../assets/tournament-assets/freefire.png";
-import valorant from "../assets/tournament-assets/valorant.png";;
+import valorant from "../assets/tournament-assets/valorant.png";
 
 const Home = () => {
-
   return (
     <>
       <div className="w-full h-screen overflow-hidden ">
@@ -121,7 +120,7 @@ const Home = () => {
                 <ul className="flex justify-center items-cnter gap-[10px] md:gap-[20px]">
                   <li>
                     <div className="overflow-hidden p-2 md:p-3">
-                      <Link href="https://discord.gg/Kexc3yHj">
+                      <Link href="https://discord.gg/4AJw9eJC">
                         <Image
                           src={discord}
                           alt="discord"
@@ -139,6 +138,28 @@ const Home = () => {
                           className="w-[24px] md:w-[28px] hover:scale-110 duration-200"
                         />
                       </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="overflow-hidden p-2 md:p-3 -ml-[2px] -mt-[2px]">
+                      <Link href="https://www.instagram.com/royal.battleground_esport/?igshid=MzMyNGUyNmU2YQ%3D%3D">
+                        <Image
+                          src={instagram}
+                          alt="instagram"
+                          className="w-[22px] md:w-[26px] mt-[2px] hover:scale-110 duration-200"
+                        />
+                      </Link>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="overflow-hidden p-2 md:p-3 -ml-[2px] -mt-[2px]">
+                      <a href="https://wa.me/9079215052">
+                        <Image
+                          src={help_icon}
+                          alt="help_icon"
+                          className="w-[24px] md:w-[28px] hover:scale-110 duration-200"
+                        />
+                      </a>
                     </div>
                   </li>
                 </ul>
