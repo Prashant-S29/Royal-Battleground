@@ -80,7 +80,7 @@ const ERANGLEFORM = () => {
             onLoad={handleRedirect}
           ></iframe>
           <form
-            action={process.env.ERANGLE_FORM_LINK}
+            action="https://docs.google.com/forms/d/e/1FAIpQLScfcik6vMFZQNB1EikSnWmYY9QZ6sp-IlGi35Bnsu-dj4ZpKQ/formResponse"
             method="post"
             target="redirectUser"
           >
