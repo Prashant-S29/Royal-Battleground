@@ -40,8 +40,8 @@ const BGMI = () => {
                   <span className="text-white leading-none">⭐⭐⭐⭐⭐</span>
                 </div>
               </div>
-              {/* <div className="h-[30px] min-w-[1px] bg-[#b0b0b0] mx-[10px]" /> */}
-              {/* <div className="flex items-center gap-2">
+              <div className="h-[30px] min-w-[1px] bg-[#b0b0b0] mx-[10px]" />
+              <div className="flex items-center gap-2">
                 <div>
                   <div className="w-[10px] aspect-square bg-red-500 rounded-full live-dot-animation " />
                 </div>
@@ -50,15 +50,15 @@ const BGMI = () => {
                     1&nbsp; Live&nbsp; Tournament
                   </span>
                 </div>
-              </div> */}
-              <div className="h-[30px] min-w-[1px] bg-[#b0b0b0] mx-[10px]" />
+              </div>
+              {/* <div className="h-[30px] min-w-[1px] bg-[#b0b0b0] mx-[10px]" />
               <div className="flex items-center gap-2">
                 <div>
                   <span className="text-white uppercase font-semibold">
                     1&nbsp; Upcoming&nbsp; Tournament
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="mt-[30px] flex flex-wrap justify-left gap-[20px] md:gap-[30px] lg:gap-[15px] xl:gap-[40px]">
               {Erangle.map((t_details, index) => (
@@ -68,8 +68,8 @@ const BGMI = () => {
                 >
                   <div className="w-full h-[180px] overflow-hidden rounded-t-[15px]">
                     {t_details.status == "live" ? (
-                      <div className="z-50 absolute mt-[5px] ml-[5px]">
-                        <div className="text-red-500 font-bold text-[14px] uppercase tracking-wide">
+                      <div className="z-50 absolute">
+                        <div className="bg-red-500 text-white px-[10px] py-[3px] rounded-full text-[11px] font-bold tracking-wide">
                           <span>LIVE</span>
                         </div>
                       </div>
@@ -86,7 +86,7 @@ const BGMI = () => {
                       className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-105 duration-200"
                     />
                   </div>
-                  <div className="w-full h-auto md:h-[225px] rounded-b-[15px] bg-[#ffd036]">
+                  <div className="w-full h-auto md:h-[245px] rounded-b-[15px] bg-[#ffd036]">
                     <div className="p-[15px]">
                       <div>
                         <span className="text-[#000000] text-[20px] uppercase font-extrabold">
@@ -124,28 +124,20 @@ const BGMI = () => {
                             {t_details.t_prize}
                           </span>
                         </div>
+                        <div>
+                          <span className="text-[14px]">
+                            <span className="font-semibold">
+                              Registration Ends
+                            </span>
+                            : {t_details.t_reg_end}
+                          </span>
+                        </div>
                       </div>
-                      <div className="mt-[10px] flex flex-wrap gap-2">
+                      <div className="mt-[10px] flex justify-between items-center flex-wrap gap-2">
                         {t_details.status === "upcoming" ? (
                           ""
                         ) : (
                           <div>
-                            {/* <button
-                              onClick={() => {
-                                checkout({
-                                  lineItems: [
-                                    {
-                                      price: "price_1Nts99SExA2opeWLY01ntdsj",
-                                      quantity: 1,
-                                    },
-                                  ],
-                                });
-                              }}
-                              className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
-                        font-semibold tracking-wider rounded-[5px]"
-                            >
-                              Register
-                            </button> */}
                             <Link href="../submissionForms/erangleForm">
                               <button
                                 className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
@@ -158,12 +150,12 @@ const BGMI = () => {
                         )}
                         <div>
                           <Link href={`rules-info/#${t_details.t_id}`}>
-                            <button
-                              className="bg-[#cda932] text-[#000000] px-[10px] py-[6px] text-[14px] 
-                          font-semibold tracking-wider rounded-[5px]"
+                            <span
+                              className="underline text-[#000000] text-[12px] 
+                          font-medium tracking-wider rounded-[5px]"
                             >
                               Know More
-                            </button>
+                            </span>
                           </Link>
                         </div>
                       </div>

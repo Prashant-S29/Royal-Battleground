@@ -140,9 +140,9 @@ const Home = () => {
                       </Link>
                     </div>
                   </li>
-                  {/* <li>
+                  <li>
                     <div className="overflow-hidden p-2 md:p-3 -ml-[2px] -mt-[2px]">
-                      <Link href="https://www.instagram.com/royal.battleground_esport/?igshid=MzMyNGUyNmU2YQ%3D%3D">
+                      <Link href="https://www.instagram.com/royal_battleground_esport/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
                         <Image
                           src={instagram}
                           alt="instagram"
@@ -150,7 +150,7 @@ const Home = () => {
                         />
                       </Link>
                     </div>
-                  </li> */}
+                  </li>
                   <li>
                     <div className="overflow-hidden p-2 md:p-3 -ml-[2px] -mt-[2px]">
                       <a href="https://wa.me/7849896708">

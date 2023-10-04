@@ -88,10 +88,10 @@ const ERANGLE = () => {
             </div>
             {t_details.status == "live" ? (
               <div className="mt-[20px]">
-                <Link href="/">
+                <Link href="../submissionForms/erangleForm">
                   <button
-                    className="px-[8px] md:px-[10px] py-[6px] md:py-[8px] bg-[#ffd036] rounded-[8px] uppercase text-black font-bold text-[14px] md:text-[16px]
-              hover:rounded-none duration-200 w-full md:w-fit"
+                    className="px-[8px] md:px-[10px] py-[6px] md:py-[8px] bg-[#ffd036] rounded-[8px] uppercase text-black font-bold text-[12px] md:text-[14px]
+               w-full md:w-fit"
                   >
                     Register
                   </button>
