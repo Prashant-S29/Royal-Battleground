@@ -196,7 +196,7 @@ const ERANGLEFORM = () => {
                       name="entry.1765048933"
                       required
                       type="text"
-                      placeholder="Ingame ID"
+                      placeholder="Ingame Name"
                       value={leaderInGameID}
                       onChange={(e) => handleLeaderInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -237,7 +237,7 @@ const ERANGLEFORM = () => {
                       name="entry.2095002117"
                       required
                       type="text"
-                      placeholder="Ingame ID"
+                      placeholder="Ingame Name"
                       value={memberTwoInGameID}
                       onChange={(e) => handleMemberTwoInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -252,7 +252,7 @@ const ERANGLEFORM = () => {
                     <input
                       name="entry.1682838671"
                       type="text"
-                      placeholder="Ingame ID"
+                      placeholder="Ingame Name"
                       value={memberThreeInGameID}
                       onChange={(e) => handleMemberThreeInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -267,7 +267,7 @@ const ERANGLEFORM = () => {
                     <input
                       name="entry.2043360194"
                       type="text"
-                      placeholder="Ingame ID"
+                      placeholder="Ingame Name"
                       value={memberFourInGameID}
                       onChange={(e) => handleMemberFourInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
