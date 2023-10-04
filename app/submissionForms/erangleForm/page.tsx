@@ -155,7 +155,7 @@ const ERANGLEFORM = () => {
                             name="entry.1124120439"
                             required
                             type="text"
-                            placeholder="UPI Ref Number / Transaction ID"
+                            placeholder="UPI Ref Number / UTR"
                             value={tournamentPayment}
                             onChange={(e) => handlePaymentValue(e)}
                             className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full  placeholder:text-[14px]"
@@ -163,7 +163,7 @@ const ERANGLEFORM = () => {
                         </div>
                         <div className="mt-[5px]">
                           <span className="text-[14px]">
-                            We need it in order to verify your payment.
+                            12 Digit Payment ID. We need it in order to verify your payment.
                           </span>
                         </div>
                       </div>
