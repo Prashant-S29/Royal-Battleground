@@ -8,8 +8,8 @@ html {
   scroll-behavior: smooth;
 }
 
-::selection{
-  background-color: transparent;
+::selection {
+  background-color: #ffd7a6;
 }
 
 ::-webkit-scrollbar {
@@ -38,15 +38,15 @@ html {
   background-image: url("../assets/tournament-assets/bgmi-bg.png");
 }
 
-.live-dot-animation{
+.live-dot-animation {
   animation: dot-animation 0.6s alternate infinite;
 }
 
 @keyframes dot-animation {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }

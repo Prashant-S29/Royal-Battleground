@@ -124,7 +124,7 @@ const Home = () => {
                         <Image
                           src={discord}
                           alt="discord"
-                          className="w-[24px] md:w-[28px] hover:scale-110 duration-200"
+                          className="w-[24px] md:w-[28px] hover:scale-110 duration-150"
                         />
                       </Link>
                     </div>
@@ -135,7 +135,7 @@ const Home = () => {
                         <Image
                           src={whatsapp}
                           alt="whatsapp"
-                          className="w-[24px] md:w-[28px] hover:scale-110 duration-200"
+                          className="w-[24px] md:w-[28px] hover:scale-110 duration-150"
                         />
                       </Link>
                     </div>
@@ -146,7 +146,7 @@ const Home = () => {
                         <Image
                           src={instagram}
                           alt="instagram"
-                          className="w-[22px] md:w-[26px] mt-[2px] hover:scale-110 duration-200"
+                          className="w-[22px] md:w-[26px] mt-[2px] hover:scale-110 duration-150"
                         />
                       </Link>
                     </div>
@@ -157,7 +157,7 @@ const Home = () => {
                         <Image
                           src={help_icon}
                           alt="help_icon"
-                          className="w-[24px] md:w-[28px] hover:scale-110 duration-200"
+                          className="w-[24px] md:w-[28px] hover:scale-110 duration-150"
                         />
                       </a>
                     </div>

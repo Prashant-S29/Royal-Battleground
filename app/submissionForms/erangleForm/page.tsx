@@ -52,7 +52,7 @@ const ERANGLEFORM = () => {
     setMemberFourInGameID(e.target.value);
   };
   const handleRedirect = () => {
-    window.location.href = "/";
+    window.location.href = "/successPage";
   };
   const toogleChecked = () => {
     setChecked(!checked);
@@ -163,7 +163,8 @@ const ERANGLEFORM = () => {
                         </div>
                         <div className="mt-[5px]">
                           <span className="text-[14px]">
-                            12 Digit Payment ID. We need it in order to verify your payment.
+                            12 Digit Payment ID. We need it in order to verify
+                            your payment.
                           </span>
                         </div>
                       </div>
@@ -196,7 +197,7 @@ const ERANGLEFORM = () => {
                       name="entry.1765048933"
                       required
                       type="text"
-                      placeholder="Ingame Name"
+                      placeholder="Ingame Name / ID"
                       value={leaderInGameID}
                       onChange={(e) => handleLeaderInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -237,7 +238,7 @@ const ERANGLEFORM = () => {
                       name="entry.2095002117"
                       required
                       type="text"
-                      placeholder="Ingame Name"
+                      placeholder="Ingame Name / ID"
                       value={memberTwoInGameID}
                       onChange={(e) => handleMemberTwoInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -252,7 +253,7 @@ const ERANGLEFORM = () => {
                     <input
                       name="entry.1682838671"
                       type="text"
-                      placeholder="Ingame Name"
+                      placeholder="Ingame Name / ID"
                       value={memberThreeInGameID}
                       onChange={(e) => handleMemberThreeInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -267,7 +268,7 @@ const ERANGLEFORM = () => {
                     <input
                       name="entry.2043360194"
                       type="text"
-                      placeholder="Ingame Name"
+                      placeholder="Ingame Name / ID"
                       value={memberFourInGameID}
                       onChange={(e) => handleMemberFourInGameIDValue(e)}
                       className="border rounded-[10px] px-[10px] py-[8px] outline-none bg-transparent placeholder:text-[#000000] border-black w-full md:w-[350px] placeholder:text-[14px]"
@@ -292,7 +293,6 @@ const ERANGLEFORM = () => {
                   {checked ? (
                     <button
                       type="submit"
-                      // onClick={(e) => handleSubmit(e)}
                       className="w-full md:w-[350px] text-center bg-[#ffd036] font-bold text-[16px] py-[8px] rounded-[10px] uppercase"
                     >
                       Submit
