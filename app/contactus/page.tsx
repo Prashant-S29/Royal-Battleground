@@ -34,7 +34,7 @@ const CONTACTUS = () => {
                       <Image
                         src={instagram}
                         alt="instagram"
-                        className="min-w-[20px] md:min-w-[30px] hover:scale-110 duration-150 cursor-pointer"
+                        className="w-[26px] md:w-[30px] hover:scale-110 duration-150 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -52,7 +52,7 @@ const CONTACTUS = () => {
                       <Image
                         src={discord}
                         alt="discord"
-                        className="min-w-[22px] md:min-w-[34px] hover:scale-110 duration-150 cursor-pointer"
+                        className="w-[26px] md:w-[34px] hover:scale-110 duration-150 cursor-pointer"
                       />
                     </div>
                     <div>
@@ -73,7 +73,7 @@ const CONTACTUS = () => {
                       <Image
                         src={whatsapp}
                         alt="whatsapp"
-                        className="min-w-[20px] md:min-w-[30px] hover:scale-110 duration-150 cursor-pointer"
+                        className="w-[26px] md:w-[34px] hover:scale-110 duration-150 cursor-pointer"
                       />
                     </div>
                     <div>
