@@ -20,7 +20,7 @@ const SUCCESSPAGE = () => {
           </div>
           <div className="mt-[10px] md:mt-0">
             <span className="font-extrabold text-[18px] md:text-[24px] lg:text-[32px]">
-              You have successfully registred in{" "}
+              You have successfully registered in{" "}
               <span className="text-[#ffd036]">Erangle - Classic</span>{" "}
               Tournament
             </span>

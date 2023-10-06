@@ -52,7 +52,7 @@ const CONTACTUS = () => {
       <div className="w-full min-h-screen flex justify-center items-center px-[20px] mb-[20px]">
         <div>
           <div>
-            <div className="text-center">
+            <div className="text-center mt-[20px]">
               <span className="text-[32px] md:text-[48px] lg:text-[68px] font-black leading-none md:leading-normal">
                 Contact Us<span className="text-[#ffd036]">.</span>
               </span>
