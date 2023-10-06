@@ -153,13 +153,13 @@ const Home = () => {
                   </li>
                   <li>
                     <div className="overflow-hidden p-2 md:p-3 -ml-[2px] -mt-[2px]">
-                      <a href="https://wa.me/7849896708">
+                      <Link href="/contactus">
                         <Image
                           src={help_icon}
                           alt="help_icon"
                           className="w-[24px] md:w-[28px] hover:scale-110 duration-150"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </li>
                 </ul>
