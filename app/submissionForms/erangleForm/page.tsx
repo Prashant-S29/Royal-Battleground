@@ -51,9 +51,11 @@ const ERANGLEFORM = () => {
   const handleMemberFourInGameIDValue = (e: any) => {
     setMemberFourInGameID(e.target.value);
   };
-  const handleRedirect = () => {
-    window.location.href = "/successPage";
-  };
+
+  // const handleRedirect = () => {
+  //   window.location.href = "/successPage";
+  // };
+
   const toogleChecked = () => {
     setChecked(!checked);
   };
@@ -73,16 +75,18 @@ const ERANGLEFORM = () => {
 
       <div className="w-full min-h-screen flex justify-center items-center bg-[#ffffff00]">
         <div className="w-fit h-fit bg-[#ffffff64] backdrop-blur-[5px] p-[0px] md:p-[20px] rounded-[20px]">
-          <iframe
+          {/* <iframe
             name="redirectUser"
             id="redirectUser"
             className="hidden"
-            onLoad={handleRedirect}
-          ></iframe>
+            // ={handleRedirect}
+          ></iframe> */}
           <form
             action="https://docs.google.com/forms/d/e/1FAIpQLScfcik6vMFZQNB1EikSnWmYY9QZ6sp-IlGi35Bnsu-dj4ZpKQ/formResponse"
             method="post"
-            target="redirectUser"
+            onSubmit={() => {
+              window.location.href = "/successPage";
+            }}
           >
             <div className="block md:flex gap-[50px]   mx-[20px]">
               <div>
