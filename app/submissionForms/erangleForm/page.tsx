@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 import formBackdrop from "../../../assets/backdrop/formBackdrop.png";
 import mainlogo from "../../../assets/mainlogo.png";
@@ -9,7 +9,6 @@ import Image from "next/image";
 import payment_qr from "../../../assets/payment_qr.png";
 import help_button from "../../../assets/buttons/help_button.png";
 import upiid_eg from "../../../assets/buttons/upiid_eg.png";
-import download_button from "../../../assets/buttons/download.png";
 
 const ERANGLEFORM = () => {
   const [checked, setChecked] = useState(false);
@@ -52,15 +51,18 @@ const ERANGLEFORM = () => {
     setMemberFourInGameID(e.target.value);
   };
 
-  // const handleRedirect = () => {
-  //   window.location.href = "/successPage";
-  // };
-
   const toogleChecked = () => {
     setChecked(!checked);
   };
   const handleImageDisplay = (e: any) => {
     setShowImage(!showImage);
+  };
+
+  const onSubmitHandler = (e: any) => {
+    setTimeout(() => {
+      window.location.href = "/successPage";
+      // ; // Replace '/next-page' with your desired URL
+    }, 2000);
   };
 
   return (
@@ -84,9 +86,7 @@ const ERANGLEFORM = () => {
           <form
             action="https://docs.google.com/forms/d/e/1FAIpQLScfcik6vMFZQNB1EikSnWmYY9QZ6sp-IlGi35Bnsu-dj4ZpKQ/formResponse"
             method="post"
-            onSubmit={() => {
-              window.location.href = "/successPage";
-            }}
+            onSubmit={onSubmitHandler}
           >
             <div className="block md:flex gap-[50px]   mx-[20px]">
               <div>
