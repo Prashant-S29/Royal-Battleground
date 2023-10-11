@@ -173,7 +173,7 @@ const Home = () => {
         </div>
       </div>
       <div className="absolute w-full h-[200px] bg-gradient-to-t from-[#000000] to-[#00000000] -mt-[200px] " />
-      <div className="w-full bg-black pb-[50px]">
+      <div className="w-full bg-black pb-[10px]">
         <div id="tournaments" className="text-center pt-[50px]">
           <span
             className="uppercase leading-none battelground-gradient text-[36px] md:text-[72px]"
@@ -259,6 +259,24 @@ const Home = () => {
               </div>
             </div>
           </Link>
+        </div>
+        <div className="flex text-center justify-center mt-[10px]">
+          <ul className="flex gap-x-[20px] md:gap-x-[50px] text-[#757575] text-[12px] md:text-[14px]">
+            <li>
+              <Link href="/privacy-policy">
+                <div className="hover:underline hover:text-[#ffffff] duration-150 ">
+                  <span>Privacy Policy</span>
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link href="/refund-policy">
+                <div className="hover:underline hover:text-[#ffffff] duration-150 ">
+                  <span>Refund Policy</span>
+                </div>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </>

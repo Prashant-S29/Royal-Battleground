@@ -61,7 +61,6 @@ const ERANGLEFORM = () => {
   const onSubmitHandler = (e: any) => {
     setTimeout(() => {
       window.location.href = "/successPage";
-      // ; // Replace '/next-page' with your desired URL
     }, 2000);
   };
 
@@ -77,12 +76,6 @@ const ERANGLEFORM = () => {
 
       <div className="w-full min-h-screen flex justify-center items-center bg-[#ffffff00]">
         <div className="w-fit h-fit bg-[#ffffff64] backdrop-blur-[5px] p-[0px] md:p-[20px] rounded-[20px]">
-          {/* <iframe
-            name="redirectUser"
-            id="redirectUser"
-            className="hidden"
-            // ={handleRedirect}
-          ></iframe> */}
           <form
             action="https://docs.google.com/forms/d/e/1FAIpQLScfcik6vMFZQNB1EikSnWmYY9QZ6sp-IlGi35Bnsu-dj4ZpKQ/formResponse"
             method="post"
