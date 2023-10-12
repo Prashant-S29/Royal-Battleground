@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import bgmi_bg from "../../../assets/tournament-assets/freefire-bg.png";
+import { freefire_bg } from "@/assets";
 
 const FREEFIRE = () => {
   return (
@@ -10,8 +10,8 @@ const FREEFIRE = () => {
       <div className="w-full min-h-screen flex justify-center items-end">
         <div>
           <Image
-            src={bgmi_bg}
-            alt="bgmi_bg"
+            src={freefire_bg}
+            alt="freefire_bg"
             className="w-full h-screen object-cover fixed top-0 left-0 -z-10 "
           />
         </div>
@@ -52,11 +52,6 @@ const FREEFIRE = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="mt-[30px] flex flex-wrap justify-left gap-[20px] md:gap-[40px] lg:gap-[20px] xl:gap-[50px]">
-              <div className="min-w-full lg:min-w-[300px] h-[350px] bg-slate-500 rounded-md"></div>
-              <div className="min-w-full lg:min-w-[300px] h-[350px] bg-slate-500 rounded-md"></div>
-              <div className="min-w-full lg:min-w-[300px] h-[350px] bg-slate-500 rounded-md"></div>
-            </div> */}
           </div>
         </div>
       </div>

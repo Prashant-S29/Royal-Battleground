@@ -1,12 +1,8 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import discord from "../../assets/socials/discord.png";
-import instagram from "../../assets/socials/instagram.png";
-import whatsapp from "../../assets/socials/whatsapp.png";
+import { discord, instagram, whatsapp } from "@/assets";
 
 const SUCCESSPAGE = () => {
   return (

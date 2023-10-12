@@ -34,12 +34,8 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
-.backdrop2 {
-  background: url("../assets/backdrop/backdrop2.png");
-}
-
 .bgmi_tournament {
-  background-image: url("../assets/tournament-assets/bgmi-bg.png");
+  background-image: url("../assets/tournament-assets/bgmi/bgmi_bg.webp");
 }
 
 .live-dot-animation {

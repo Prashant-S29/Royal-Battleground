@@ -1,11 +1,9 @@
-import bgmi1 from "../assets/tournament-assets/bgmi1.png"
-import bgmi2 from "../assets/tournament-assets/bgmi2.png"
-
+import { erangle_card } from "@/assets"
 
 const Erangle = [
     {
         t_name: "Erangle - Classic",
-        t_img: bgmi1,
+        t_img: erangle_card,
         t_id: "erangle",
         status: "live",
         t_fee: "₹120/-",
@@ -17,7 +15,6 @@ const Erangle = [
         t_prize: "₹2100/-",
         t_rule: [
             "It is a 2-4 player team tournamenent. You can participate as Duo, Trio or as a whole Squad.",
-            // "",
             "No Emulator players are allowed.",
             "Any use of unfair means such as aimbot, trigger bot, ESP etc are not allowed.",
             "Organizers would not be held responsible for any connectivity issues on the participant's side.",

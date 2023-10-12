@@ -1,15 +1,7 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
-import bgmi_bg from "../../../assets/tournament-assets/bgmi-bg.png";
-
-import bgmi1 from "../../../assets/tournament-assets/bgmi1.png";
-import bgmi2 from "../../../assets/tournament-assets/bgmi2.png";
-
-import { checkout } from "../../../checkout";
-
+import { bgmi_bg } from "@/assets";
 import { Erangle } from "../../../tournament-constants/index";
 
 const BGMI = () => {
