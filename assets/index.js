@@ -3,9 +3,11 @@ import payment_qr from "./platform-assets/payment_qr.webp"
 import upiid_eg from "./platform-assets/upiid_eg.webp"
 
 import formbackdrop from "./backdrop/formBackdrop.webp"
-import mainbackdrop from "./backdrop/mainbackdrop.webp"
+import mainbackdrop from "./backdrop/mainBackdrop.webp"
 
 import help_button from "./buttons/help_button.webp"
+
+import rules_bg from "./rules-assets/rules_bg.webp"
 
 import plane1 from "./frontside-assets/plane1.webp"
 import plane2 from "./frontside-assets/plane2.webp"
@@ -34,6 +36,7 @@ export {
     formbackdrop,
     mainbackdrop,
     help_button,
+    rules_bg,
     plane1,
     plane2,
     planet,

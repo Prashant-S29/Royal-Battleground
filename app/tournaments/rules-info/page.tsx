@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
 
-import erangleBackdrop from "../../../assets/backdrop/erangleBackdop.png";
+// import erangleBackdrop from "../../../assets/backdrop/erangleBackdop.png";
+import { rules_bg } from "@/assets";
 
 import { Erangle } from "@/tournament-constants";
 import Link from "next/link";
@@ -11,8 +12,8 @@ const ERANGLE = () => {
     <>
       <div className="fixed w-full min-h-screen object-cover object-center object-fixed -z-50">
         <Image
-          src={erangleBackdrop}
-          alt="tdm"
+          src={rules_bg}
+          alt="rules_bg"
           className="w-full min-h-screen object-cover object-fixed object-center"
         />
       </div>
