@@ -9,6 +9,7 @@ import Image from "next/image";
 import payment_qr from "../../../assets/payment_qr.png";
 import help_button from "../../../assets/buttons/help_button.png";
 import upiid_eg from "../../../assets/buttons/upiid_eg.png";
+import Link from "next/link";
 
 const ERANGLEFORM = () => {
   const [checked, setChecked] = useState(false);
@@ -281,9 +282,16 @@ const ERANGLEFORM = () => {
                     className="w-[15px] aspect-square cursor-pointer mt-[5px]"
                   />
                   <span className="ml-[10px] text-[14px] -mt-[5px]">
-                    All details filled here are correct and at the{" "}
+                    I have read and agree with{" "}
+                    <Link href="/privacy-policy">
+                      <span className="underline">Privacy Policy</span>
+                    </Link>{" "}
                     <br className="hidden lg:block" />
-                    best of my knowledge.
+                    and{" "}
+                    <Link href="/refund-policy">
+                      <span className="underline">Refund Policy</span>
+                    </Link>
+                    .
                   </span>
                 </div>
                 <div className="mt-[10px]">
