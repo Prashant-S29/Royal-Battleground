@@ -131,7 +131,7 @@ const Home = () => {
                   </li>
                   <li>
                     <div className="overflow-hidden p-2 md:p-3 -mt-[2px]">
-                      <Link href="https://chat.whatsapp.com/DMTeZz8Hq0i0Q4CVJvRh8B">
+                      <Link href="https://chat.whatsapp.com/ChiimyIewE7ISOqh1ymgV4">
                         <Image
                           src={whatsapp}
                           alt="whatsapp"

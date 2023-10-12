@@ -14,7 +14,7 @@ const Erangle = [
         t_date: "18th October, 2023",
         t_time: "06:00 PM Onwards",
         t_reg_end:"16th October, 2023",
-        t_prize: "₹2000/-",
+        t_prize: "₹2100/-",
         t_rule: [
             "It is a 2-4 player team tournamenent. You can participate as Duo, Trio or as a whole Squad.",
             // "",
