@@ -75,7 +75,7 @@ const BGMI = () => {
                     <Image
                       src={t_details.t_img}
                       alt="bgmi1"
-                      className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-105 duration-200"
+                      className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-150  hover:rotate-12   duration-200"
                     />
                   </div>
                   <div className="w-full h-auto md:h-[225px] rounded-b-[15px] bg-[#ffd036]">
