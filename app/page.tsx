@@ -18,7 +18,7 @@ import {
   bgmi_banner,
   freefire_banner,
   minecraft_banner,
-  valorant_banner
+  valorant_banner,
 } from "@/assets";
 
 const Home = () => {

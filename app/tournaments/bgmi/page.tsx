@@ -78,7 +78,7 @@ const BGMI = () => {
                       className="w-full h-full object-cover rounded-t-[15px]  -z-10 hover:scale-105 duration-200"
                     />
                   </div>
-                  <div className="w-full h-auto md:h-[245px] rounded-b-[15px] bg-[#ffd036]">
+                  <div className="w-full h-auto md:h-[225px] rounded-b-[15px] bg-[#ffd036]">
                     <div className="p-[15px]">
                       <div>
                         <span className="text-[#000000] text-[20px] uppercase font-extrabold">
@@ -113,17 +113,17 @@ const BGMI = () => {
                         <div>
                           <span className="text-[14px]">
                             <span className="font-semibold">Prize Pool</span>:{" "}
-                            {t_details.t_prize}
+                            <b>{t_details.t_prize}</b>
                           </span>
                         </div>
-                        <div>
+                        {/* <div>
                           <span className="text-[14px]">
                             <span className="font-semibold">
                               Registration Ends
                             </span>
                             : {t_details.t_reg_end}
                           </span>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="mt-[10px] flex justify-between items-center flex-wrap gap-2">
                         {t_details.status === "upcoming" ? (
