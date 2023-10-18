@@ -34,7 +34,7 @@ const REFUNDPOLICY = () => {
           </div>
           <div className="mt-[20px]">
             <span>
-              Last Updated - <span className="font-bold">October 09, 2023</span>
+              Last Updated - <span className="font-bold">October 13, 2023</span>
             </span>
           </div>
           <div className="mt-[20px]">
@@ -119,6 +119,29 @@ const REFUNDPOLICY = () => {
                         </li>
                       </ul>
                     </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="mt-[20px]">
+              <span className="font-bold">Refund Amount</span>
+            </div>
+            <div className="pl-[20px] md:pl-[40px] mt-[10px]">
+              <ul className="list-disc">
+                <li>
+                  <div>
+                    <span>
+                      If a tournament is canceled by organizers or there is any
+                      technical issues on the organization end, 100% refund will
+                      be provided to all the participants.
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <span>
+                      After slot confirmation / successfull registration, if a team wish to withdraw their slot, only 30% refund will be provided to that team.
+                    </span>
                   </div>
                 </li>
               </ul>
