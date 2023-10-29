@@ -44,6 +44,12 @@ const ERANGLE = () => {
               </span>
             </div>
             <div className="mt-[5px] text-[14px] md:text-[16px]">
+              <span className="font-semibold">Prize Pool: </span>
+              <span className="font-bold text-[#ffd036] ">
+                {t_details.t_prize}{" "}
+              </span>
+            </div>
+            <div className="mt-[5px] text-[14px] md:text-[16px]">
               <span className="font-semibold">Fee: </span>
               <span className="font-bold text-[#ffd036] ">
                 {t_details.t_fee}{" "}

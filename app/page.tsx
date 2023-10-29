@@ -95,7 +95,7 @@ const Home = () => {
                 one place for all competitive tournaments
               </span>
             </div>
-            <div className="mt-[30px] flex justify-center gap-[30px]">
+            <div className="mt-[30px] flex justify-center gap-[30px] gap-5">
               <Link href="#tournaments">
                 <div className="relative">
                   <button className="px-[14px] py-[8px] text-[16px] text-black border-2 uppercase font-bold bg-[#ffffff54] hover:bg-transparent duration-300 tracking-wider ">
@@ -103,6 +103,13 @@ const Home = () => {
                   </button>
                 </div>
               </Link>
+              {/* <Link href="/leaderboard">
+                <div className="relative">
+                  <button className="px-[14px] py-[8px] text-[16px] text-black border-2 uppercase font-bold bg-[#ffffff54] hover:bg-transparent duration-300 tracking-wider ">
+                    Leaderboard
+                  </button>
+                </div>
+              </Link> */}
             </div>
             <div className="relative flex justify-center items-center mt-[30px]">
               <div className="w-[80px] md:w-[150px] h-[1px] md:h-[2px] bg-white rounded-full" />

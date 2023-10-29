@@ -29,6 +29,10 @@ import minecraft_bg from "./tournament-assets/minecraft/minecraft_bg.webp"
 import valorant_banner from "./tournament-assets/valorant/valorant_banner.webp"
 import valorant_bg from "./tournament-assets/valorant/valorant_bg.webp"
 
+import board_bg from "./backdrop/board.png"
+import trophy_img from "./buttons/trophy.png"
+// import teamone from "./leaderboard/teamone.png"
+
 export {
     mainlogo,
     payment_qr,
@@ -53,5 +57,8 @@ export {
     minecraft_banner,
     minecraft_bg,
     valorant_banner,
-    valorant_bg
+    valorant_bg,
+    board_bg,
+    trophy_img,
+    // teamone
 }

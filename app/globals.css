@@ -59,3 +59,36 @@ html {
 .section-close {
   display: none;
 }
+
+.text-stroke {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.193);
+}
+
+.board {
+  background-image: url("../assets/backdrop/board.png");
+}
+
+
+.btn_active {
+  color:#000000;
+  font-weight: 700;
+  background-color: #ffd036;
+  transition-duration: 0.5s;
+}
+
+.btn_deactive {
+  color: white;
+  background-color: #000000;
+  transition-duration: 0.5s;
+
+}
+
+
+.active-div {
+  display: block;
+}
+
+.deactive-div {
+  display: none;
+}
