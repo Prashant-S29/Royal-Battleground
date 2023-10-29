@@ -95,7 +95,7 @@ const Home = () => {
                 one place for all competitive tournaments
               </span>
             </div>
-            <div className="mt-[30px] flex justify-center gap-[30px] gap-5">
+            <div className="mt-[30px] flex justify-center gap-[30px]">
               <Link href="#tournaments">
                 <div className="relative">
                   <button className="px-[14px] py-[8px] text-[16px] text-black border-2 uppercase font-bold bg-[#ffffff54] hover:bg-transparent duration-300 tracking-wider ">
