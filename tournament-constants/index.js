@@ -4,7 +4,7 @@ import { erangle_card } from "@/assets"
 
 const Erangle = [
     {
-        t_name: "Erangle 2.0 - Classic",
+        t_name: "Erangel 2.0 - Classic",
         t_img: erangle_card,
         t_id: "erangle",
         status: "upcoming",
@@ -24,7 +24,7 @@ const Erangle = [
         ]
     },
     {
-        t_name: "Erangle - Classic",
+        t_name: "Erangel - Classic",
         t_img: erangle_card,
         t_id: "erangle",
         status: "ended",
