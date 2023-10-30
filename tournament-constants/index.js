@@ -7,7 +7,7 @@ const Erangle = [
         t_name: "Erangel 2.0 - Classic",
         t_img: erangle_card,
         t_id: "erangle",
-        status: "upcoming",
+        status: "live",
         t_fee: "₹120/-",
         t_category: "team",
         t_size: "Duo / Trio / Squad",
@@ -15,6 +15,7 @@ const Erangle = [
         t_time: "09:30 PM Onwards",
         t_prize: "₹2100/-",
         t_rule: [
+            "There will Point Table system for finalizing the winners.",
             "It is a 2-4 player team tournamenent. You can participate as Duo, Trio or as a whole Squad.",
             "No Emulator players are allowed.",
             "Any use of unfair means such as aimbot, trigger bot, ESP etc are not allowed.",

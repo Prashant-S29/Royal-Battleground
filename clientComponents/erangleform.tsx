@@ -54,18 +54,18 @@ const ERANGLE_FORM = () => {
     setShowImage(!showImage);
   };
 
-  const onSubmitHandler = (e: any) => {
-    setTimeout(() => {
-      window.location.href = "/successPage";
-    }, 2000);
-  };
+  // const onSubmitHandler = (e: any) => {
+  //   setTimeout(() => {
+  //     window.location.href = "/successPage";
+  //   }, 2000);
+  // };
   return (
     <>
       <div>
         <form
-          action="https://docs.google.com/forms/d/e/1FAIpQLScfcik6vMFZQNB1EikSnWmYY9QZ6sp-IlGi35Bnsu-dj4ZpKQ/formResponse"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSdjqD-acEhmPB2uAse97ikBOv24MJpKeglERCbEU2_lEzFy_A/formResponse"
           method="post"
-          onSubmit={onSubmitHandler}
+          // onSubmit={onSubmitHandler}
         >
           <div className="block md:flex gap-[50px]   mx-[20px]">
             <div>
@@ -135,7 +135,7 @@ const ERANGLE_FORM = () => {
                       </div>
                       <div className="mt-[5px]">
                         <input
-                          name="entry.1124120439"
+                          name="entry.1540408079"
                           required
                           type="text"
                           placeholder="UPI Ref Number / UTR"
@@ -166,7 +166,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[10px]">
                   <input
-                    name="entry.1608870679"
+                    name="entry.1619844329"
                     required
                     type="text"
                     placeholder="Name"
@@ -177,7 +177,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[10px]">
                   <input
-                    name="entry.1765048933"
+                    name="entry.903605110"
                     required
                     type="text"
                     placeholder="Ingame Name / ID"
@@ -188,7 +188,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[10px]">
                   <input
-                    name="entry.1800427529"
+                    name="entry.1465030373"
                     required
                     type="email"
                     placeholder="Mail"
@@ -199,7 +199,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[10px]">
                   <input
-                    name="entry.425027350"
+                    name="entry.598059156"
                     required
                     type="text"
                     placeholder="Phone Number"
@@ -218,7 +218,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[5px]">
                   <input
-                    name="entry.2095002117"
+                    name="entry.946862313"
                     required
                     type="text"
                     placeholder="Ingame Name / ID"
@@ -234,7 +234,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[5px]">
                   <input
-                    name="entry.1682838671"
+                    name="entry.1954128300"
                     type="text"
                     placeholder="Ingame Name / ID"
                     value={memberThreeInGameID}
@@ -249,7 +249,7 @@ const ERANGLE_FORM = () => {
                 </div>
                 <div className="mt-[5px]">
                   <input
-                    name="entry.2043360194"
+                    name="entry.1222072544"
                     type="text"
                     placeholder="Ingame Name / ID"
                     value={memberFourInGameID}

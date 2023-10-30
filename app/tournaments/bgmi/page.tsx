@@ -57,7 +57,7 @@ const TournamentButtonStatus = ({ condition }: any) => {
           className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
                     font-semibold tracking-wider rounded-[5px]"
         >
-          Registrations  yet to start
+          Registrations yet to start
         </button>
       </div>
     );
@@ -69,7 +69,7 @@ const TournamentButtonStatus = ({ condition }: any) => {
           className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
                       font-semibold tracking-wider rounded-[5px]"
         >
-          Registration  Closed
+          Registration Closed
         </button>
       </div>
     );
@@ -96,7 +96,7 @@ const BGMI = () => {
     );
   }
 
-  const [activeButton, setActiveButton] = useState(0);
+  const [activeButton, setActiveButton] = useState(1);
 
   const handleButtonClick = (index: any) => {
     setActiveButton(index);
@@ -339,20 +339,20 @@ const BGMI = () => {
                                 </span>
                               </div>
                             </div>
-                            <div className="mt-[10px] flex justify-between items-center flex-wrap gap-2">
+                            <div className="mt-[10px] flex justify-left items-center flex-wrap gap-2">
                               <TournamentButtonStatus
                                 condition={t_details.status}
                               />
-                              {/* <div>
+                              <div>
                                 <Link href={`rules-info/#${t_details.t_id}`}>
-                                  <span
-                                    className="underline text-[#000000] text-[12px] 
-                            font-medium tracking-wider rounded-[5px]"
+                                  <button
+                                    className=" bg-[#cda932]    text-[#000000] px-[10px] py-[6px] text-[14px] 
+                        font-semibold tracking-wider rounded-[5px]"
                                   >
-                                    Know More
-                                  </span>
+                                    Rules and Info
+                                  </button>
                                 </Link>
-                              </div> */}
+                              </div>
                             </div>
                           </div>
                         </div>
