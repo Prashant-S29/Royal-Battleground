@@ -69,9 +69,8 @@ html {
   background-image: url("../assets/backdrop/board.png");
 }
 
-
 .btn_active {
-  color:#000000;
+  color: #000000;
   font-weight: 700;
   background-color: #ffd036;
   transition-duration: 0.5s;
@@ -81,9 +80,7 @@ html {
   color: white;
   background-color: #000000;
   transition-duration: 0.5s;
-
 }
-
 
 .active-div {
   display: block;

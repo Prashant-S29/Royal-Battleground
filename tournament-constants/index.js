@@ -20,7 +20,8 @@ const Erangle = [
             "It is a 2-4 player team tournamenent. You can participate as Duo, Trio or as a whole Squad.",
             "No Emulator players are allowed.",
             "Any use of unfair means such as aimbot, trigger bot, ESP etc are not allowed.",
-            "Organizers would not be held responsible for any connectivity issues on the participant's side."
+            "Organizers would not be held responsible for any connectivity issues on the participant's side.",
+            "Point Table is based on the BGIS leatest Rules. Kindly go through it once"
         ]
     },
     {
