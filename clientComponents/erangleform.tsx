@@ -74,7 +74,7 @@ const ERANGLE_FORM = () => {
               </div>
               <div className="text-center -mt-[10px]">
                 <span className="uppercase font-black text-[20px]">
-                  Erangle - Classic
+                  Erangle 2.0
                 </span>
               </div>
               <div className="text-center mt-[10px]">
