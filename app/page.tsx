@@ -196,6 +196,25 @@ const Home = () => {
               </div>
             </div>
           </Link>
+          <Link href="/tournaments/freefire" className="rounded-full">
+            <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
+              <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
+                <Image
+                  src={freefire_banner}
+                  alt="freefire_banner"
+                  layout="fill"
+                  objectFit="cover"
+                  objectPosition="center"
+                  className="rounded-full"
+                />
+              </div>
+              <div className="z-50 absolute">
+                <span className="text-white uppercase font-black text-[28px] md:text-[36px] tracking-widest leading-none">
+                  Freefire
+                </span>
+              </div>
+            </div>
+          </Link>
           <Link href="/tournaments/minecraft" className="rounded-full">
             <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
               <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
@@ -234,25 +253,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link href="/tournaments/freefire" className="rounded-full">
-            <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full flex justify-center items-center">
-              <div className="w-[290px] md:w-[300px] h-[120px] md:h-[140px] rounded-full relative overflow-hidden">
-                <Image
-                  src={freefire_banner}
-                  alt="freefire_banner"
-                  layout="fill"
-                  objectFit="cover"
-                  objectPosition="center"
-                  className="rounded-full"
-                />
-              </div>
-              <div className="z-50 absolute">
-                <span className="text-white uppercase font-black text-[28px] md:text-[36px] tracking-widest leading-none">
-                  Freefire
-                </span>
-              </div>
-            </div>
-          </Link>
+          
         </div>
         <div className="flex text-center justify-center my-[20px]">
           <ul className="flex gap-x-[20px] md:gap-x-[50px] text-[#757575] text-[12px] md:text-[14px]">
